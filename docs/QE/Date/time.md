@@ -6,8 +6,8 @@ The `time` function is used to extract the time part from a datetime expression.
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
-use function sbamtr\LaravelQueryEnrich\c;
+use digivue\LaravelQueryEnrich\QE;
+use function digivue\LaravelQueryEnrich\c;
 
 $book = Book::select(
     'id',

@@ -8,8 +8,8 @@ employed in conditional statements or validation processes to ensure that a part
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
-use function sbamtr\LaravelQueryEnrich\c;
+use digivue\LaravelQueryEnrich\QE;
+use function digivue\LaravelQueryEnrich\c;
 
 $books = Book::select(
     'id',
@@ -19,8 +19,8 @@ $books = Book::select(
 ```
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
-use function sbamtr\LaravelQueryEnrich\c;
+use digivue\LaravelQueryEnrich\QE;
+use function digivue\LaravelQueryEnrich\c;
 
 $books = DB::table('books')->whereRaw(
     QE::isNull(c('description'))

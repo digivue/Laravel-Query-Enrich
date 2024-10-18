@@ -7,7 +7,7 @@ logarithm is the mathematical constant "e" (Euler's number, approximately 2.7182
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrich\QE;
 
 $queryResult = DB::selectOne(
     'select ' . QE::ln($x)->as('ln'),

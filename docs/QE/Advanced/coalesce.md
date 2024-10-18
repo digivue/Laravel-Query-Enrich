@@ -9,8 +9,8 @@ prioritize the first non-null option.
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
-use function sbamtr\LaravelQueryEnrich\c;
+use digivue\LaravelQueryEnrich\QE;
+use function digivue\LaravelQueryEnrich\c;
 
 $book = Book::select(
     QE::coalesce(c('description'), '----')->as('description')

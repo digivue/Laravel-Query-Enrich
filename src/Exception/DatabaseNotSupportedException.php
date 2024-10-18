@@ -1,6 +1,6 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\Exception;
+namespace digivue\LaravelQueryEnrich\Exception;
 
 use RuntimeException;
 

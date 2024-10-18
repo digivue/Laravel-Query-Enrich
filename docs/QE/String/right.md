@@ -7,7 +7,7 @@ which characters will be extracted, and `$numberOfChars`, representing the numbe
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrich\QE;
 
 $queryResult = DB::selectOne(
     'select ' . QE::right($string)->as('result')

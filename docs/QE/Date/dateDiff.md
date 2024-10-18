@@ -6,8 +6,8 @@ parameters, `$date1` and `$date2`, representing the two dates for which you want
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
-use function sbamtr\LaravelQueryEnrich\c;
+use digivue\LaravelQueryEnrich\QE;
+use function digivue\LaravelQueryEnrich\c;
 
 $book = Book::select(
     'id',

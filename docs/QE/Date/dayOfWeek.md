@@ -6,8 +6,8 @@ method. Both are used to determine the weekday index for a given date or datetim
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
-use function sbamtr\LaravelQueryEnrich\c;
+use digivue\LaravelQueryEnrich\QE;
+use function digivue\LaravelQueryEnrich\c;
 
 $book = Book::select(
     'id',

@@ -1,8 +1,8 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\Advanced\CaseExpression;
+namespace digivue\LaravelQueryEnrich\Advanced\CaseExpression;
 
-use sbamtr\LaravelQueryEnrich\DBFunction;
+use digivue\LaravelQueryEnrich\DBFunction;
 
 /**
  * This class allows for the construction of a CASE expression in SQL, which is used to create conditional statements

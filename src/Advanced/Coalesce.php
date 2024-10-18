@@ -1,8 +1,8 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\Advanced;
+namespace digivue\LaravelQueryEnrich\Advanced;
 
-use sbamtr\LaravelQueryEnrich\DBFunction;
+use digivue\LaravelQueryEnrich\DBFunction;
 
 /**
  * Returns the first non-null value in a list.

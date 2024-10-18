@@ -6,8 +6,8 @@ month method. Both are used to retrieve the month part for a given time or datet
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
-use function sbamtr\LaravelQueryEnrich\c;
+use digivue\LaravelQueryEnrich\QE;
+use function digivue\LaravelQueryEnrich\c;
 
 $book = Book::select(
     'id',

@@ -8,7 +8,7 @@ for padding (defaulting to a space character if not specified).
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrich\QE;
 
 $queryResult = DB::selectOne(
     'select ' . QE::padLeft('James', 10, '-=')->as('result')

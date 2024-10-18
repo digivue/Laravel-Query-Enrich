@@ -7,8 +7,8 @@ Boolean, letting you know if the string starts with the specified substring.
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
-use function sbamtr\LaravelQueryEnrich\c;
+use digivue\LaravelQueryEnrich\QE;
+use function digivue\LaravelQueryEnrich\c;
 
 $people = People::select(
     'id',
@@ -19,8 +19,8 @@ $people = People::select(
 ```
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
-use function sbamtr\LaravelQueryEnrich\c;
+use digivue\LaravelQueryEnrich\QE;
+use function digivue\LaravelQueryEnrich\c;
 
 $people = People::whereRaw(
     QE::startsWith(c('first_name'), 'Walt')

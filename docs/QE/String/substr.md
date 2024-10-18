@@ -9,7 +9,7 @@ characters from the starting position until the end of the string.
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrich\QE;
 
 $queryResult = DB::selectOne(
     'select ' . QE::substr($string, $start, $length)->as('result')

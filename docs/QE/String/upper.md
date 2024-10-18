@@ -6,8 +6,8 @@ It takes a single parameter, `$parameter`, representing the string that you want
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
-use function sbamtr\LaravelQueryEnrich\c;
+use digivue\LaravelQueryEnrich\QE;
+use function digivue\LaravelQueryEnrich\c;
 
 $books = Book::select(
     'id',

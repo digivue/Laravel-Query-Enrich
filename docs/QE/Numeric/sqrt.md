@@ -7,7 +7,7 @@ find the square root.
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrich\QE;
 
 $queryResult = DB::selectOne(
     'select ' . QE::sqrt($x)->as('sqrt'),

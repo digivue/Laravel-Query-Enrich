@@ -1,10 +1,10 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\Advanced;
+namespace digivue\LaravelQueryEnrich\Advanced;
 
-use sbamtr\LaravelQueryEnrich\DBFunction;
-use sbamtr\LaravelQueryEnrich\EDatabaseEngine;
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrich\DBFunction;
+use digivue\LaravelQueryEnrich\EDatabaseEngine;
+use digivue\LaravelQueryEnrich\QE;
 
 /**
  * Implements an IF condition to introduce branching.

@@ -1,5 +1,5 @@
 {
-    "name": "sbamtr/laravel-query-enrich",
+    "name": "digivue/laravel-query-enrich",
     "description": "A helper for Laravel eloquent and query builder",
     "type": "library",
     "license": "MIT",
@@ -8,31 +8,14 @@
             "src/helpers.php"
         ],
         "psr-4": {
-            "sbamtr\\LaravelQueryEnrich\\": "src/"
+            "digivue\\LaravelQueryEnrich\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Siavash Bamshadnia",
-            "email": "sbamtr@gmail.com"
-        }
-    ],
     "require": {
         "nesbot/carbon": "^2|^3",
         "illuminate/database": "^8.0|^9.0|^10|^11",
         "illuminate/support": "^8.0|^9.0|^10|^11",
         "illuminate/contracts": "^8.0|^9.0|^10|^11"
-    },
-    "require-dev": {
-        "orchestra/testbench": "^6|^7|^8|^9"
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Workbench\\App\\": "workbench/app/",
-            "Workbench\\Database\\Factories\\": "workbench/database/factories/",
-            "Workbench\\Database\\Seeders\\": "workbench/database/seeders/",
-            "Workbench\\BaseTest\\": "workbench/BaseTest/"
-        }
     },
     "scripts": {
         "post-autoload-dump": [
@@ -51,7 +34,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "sbamtr\\LaravelQueryEnrich\\QueryEnrichServiceProvider"
+                "digivue\\LaravelQueryEnrich\\QueryEnrichServiceProvider"
             ]
         }
     }

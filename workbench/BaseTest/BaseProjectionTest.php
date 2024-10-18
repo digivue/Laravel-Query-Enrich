@@ -7,13 +7,13 @@ use Illuminate\Database\QueryException;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
-use sbamtr\LaravelQueryEnrich\Date\Unit;
-use sbamtr\LaravelQueryEnrich\Exception\InvalidArgumentException;
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrich\Date\Unit;
+use digivue\LaravelQueryEnrich\Exception\InvalidArgumentException;
+use digivue\LaravelQueryEnrich\QE;
 use Workbench\App\Models\Author;
 use Workbench\App\Models\Book;
 
-use function sbamtr\LaravelQueryEnrich\c;
+use function digivue\LaravelQueryEnrich\c;
 
 abstract class BaseProjectionTest extends BaseTest
 {

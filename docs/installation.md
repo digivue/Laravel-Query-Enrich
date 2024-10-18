@@ -5,7 +5,7 @@
 Run the following command in your terminal to add the package to your project:
 
 ```bash
-composer require sbamtr/laravel-query-enrich
+composer require digivue/laravel-query-enrich
 ```
 
 ## 2. Service Provider:
@@ -15,7 +15,7 @@ You may need to add the service provider to your `config/app.php` file:
 ```php
 'providers' => [
     // ...
-    sbamtr\LaravelQueryEnrich\QueryEnrichServiceProvider::class,
+    digivue\LaravelQueryEnrich\QueryEnrichServiceProvider::class,
 ],
 ```
 

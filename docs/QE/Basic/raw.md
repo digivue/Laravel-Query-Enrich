@@ -7,7 +7,7 @@ The `raw` function represents a raw SQL expression. It contains two arguments:
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrich\QE;
 
 $queryResult = DB::selectOne(
     'select ' . QE::raw('?*?', [2, 2])->as('four'),

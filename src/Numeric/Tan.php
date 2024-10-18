@@ -1,9 +1,9 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\Numeric;
+namespace digivue\LaravelQueryEnrich\Numeric;
 
 use Illuminate\Support\Facades\DB;
-use sbamtr\LaravelQueryEnrich\DBFunction;
+use digivue\LaravelQueryEnrich\DBFunction;
 
 /**
  * Returns the tangent of a number.

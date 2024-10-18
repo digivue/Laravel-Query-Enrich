@@ -6,8 +6,8 @@ and simply returns the current date when called.
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
-use function sbamtr\LaravelQueryEnrich\c;
+use digivue\LaravelQueryEnrich\QE;
+use function digivue\LaravelQueryEnrich\c;
 
 Book::where('id', 1)->update(['published_at'=>QE::now()]);
 ```

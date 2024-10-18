@@ -1,8 +1,8 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\String;
+namespace digivue\LaravelQueryEnrich\String;
 
-use sbamtr\LaravelQueryEnrich\DBFunction;
+use digivue\LaravelQueryEnrich\DBFunction;
 
 /**
  * Removes leading spaces from a string.

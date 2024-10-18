@@ -1,9 +1,9 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\Advanced;
+namespace digivue\LaravelQueryEnrich\Advanced;
 
-use sbamtr\LaravelQueryEnrich\DBFunction;
-use sbamtr\LaravelQueryEnrich\EDatabaseEngine;
+use digivue\LaravelQueryEnrich\DBFunction;
+use digivue\LaravelQueryEnrich\EDatabaseEngine;
 
 /**
  * Checks if a value is NULL.

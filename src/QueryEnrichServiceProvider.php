@@ -1,6 +1,6 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich;
+namespace digivue\LaravelQueryEnrich;
 
 use Illuminate\Support\ServiceProvider;
 

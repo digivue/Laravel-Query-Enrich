@@ -1,11 +1,11 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\Numeric;
+namespace digivue\LaravelQueryEnrich\Numeric;
 
 use Illuminate\Support\Facades\DB;
-use sbamtr\LaravelQueryEnrich\DBFunction;
-use sbamtr\LaravelQueryEnrich\EDatabaseEngine;
-use sbamtr\LaravelQueryEnrich\Exception\InvalidArgumentException;
+use digivue\LaravelQueryEnrich\DBFunction;
+use digivue\LaravelQueryEnrich\EDatabaseEngine;
+use digivue\LaravelQueryEnrich\Exception\InvalidArgumentException;
 
 /**
  * Returns a random number.

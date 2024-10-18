@@ -1,10 +1,10 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\Advanced;
+namespace digivue\LaravelQueryEnrich\Advanced;
 
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Database\Query\Builder as QueryBuilder;
-use sbamtr\LaravelQueryEnrich\DBFunction;
+use digivue\LaravelQueryEnrich\DBFunction;
 
 /**
  * Checks if a subquery returns any results using the EXISTS condition.

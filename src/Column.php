@@ -1,6 +1,6 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich;
+namespace digivue\LaravelQueryEnrich;
 
 /**
  * Retrieves a reference to a specific database column.

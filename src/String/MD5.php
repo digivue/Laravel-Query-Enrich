@@ -1,11 +1,11 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\String;
+namespace digivue\LaravelQueryEnrich\String;
 
 use Illuminate\Support\Facades\DB;
-use sbamtr\LaravelQueryEnrich\DBFunction;
-use sbamtr\LaravelQueryEnrich\EDatabaseEngine;
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrich\DBFunction;
+use digivue\LaravelQueryEnrich\EDatabaseEngine;
+use digivue\LaravelQueryEnrich\QE;
 
 /**
  * Calculates the MD5 hash for a given parameter.

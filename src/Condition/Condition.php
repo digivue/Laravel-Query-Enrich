@@ -1,9 +1,9 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\Condition;
+namespace digivue\LaravelQueryEnrich\Condition;
 
-use sbamtr\LaravelQueryEnrich\DBFunction;
-use sbamtr\LaravelQueryEnrich\Exception\InvalidArgumentException;
+use digivue\LaravelQueryEnrich\DBFunction;
+use digivue\LaravelQueryEnrich\Exception\InvalidArgumentException;
 
 /**
  * Represents a condition for use in queries.

@@ -6,7 +6,7 @@ number of parameters, representing the values to be compared, and it returns the
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrich\QE;
 
 $queryResult = DB::selectOne(
     'select ' . QE::least($x, $y, $z)->as('least'),

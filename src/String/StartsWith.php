@@ -1,10 +1,10 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\String;
+namespace digivue\LaravelQueryEnrich\String;
 
 use Illuminate\Support\Facades\DB;
-use sbamtr\LaravelQueryEnrich\DBFunction;
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrich\DBFunction;
+use digivue\LaravelQueryEnrich\QE;
 
 /**
  * Determines if a given string starts with a given substring.

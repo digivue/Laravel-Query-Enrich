@@ -1,6 +1,6 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\Date;
+namespace digivue\LaravelQueryEnrich\Date;
 
 enum Unit: string
 {

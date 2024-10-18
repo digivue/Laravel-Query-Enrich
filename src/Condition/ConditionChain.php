@@ -1,9 +1,9 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\Condition;
+namespace digivue\LaravelQueryEnrich\Condition;
 
-use sbamtr\LaravelQueryEnrich\DBFunction;
-use sbamtr\LaravelQueryEnrich\Operator\_And;
+use digivue\LaravelQueryEnrich\DBFunction;
+use digivue\LaravelQueryEnrich\Operator\_And;
 
 /**
  * Represents a chain of conditions for use in queries.

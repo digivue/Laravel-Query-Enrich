@@ -6,8 +6,8 @@ together. It takes a variable number of parameters, representing the strings or 
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
-use function sbamtr\LaravelQueryEnrich\c;
+use digivue\LaravelQueryEnrich\QE;
+use function digivue\LaravelQueryEnrich\c;
 
 $author = Author::select(
     'first_name',

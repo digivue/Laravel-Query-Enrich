@@ -7,7 +7,7 @@ convert.
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrich\QE;
 
 $queryResult = DB::selectOne(
     'select ' . QE::radianToDegrees($x)->as('radian_to_degrees'),

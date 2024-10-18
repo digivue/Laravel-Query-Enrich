@@ -7,7 +7,7 @@ and `$string`, representing the original string.
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrich\QE;
 
 $queryResult = DB::selectOne(
     'select ' . QE::position('World', 'Hello, World!')->as('position')

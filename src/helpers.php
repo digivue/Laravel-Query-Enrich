@@ -1,6 +1,6 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich;
+namespace digivue\LaravelQueryEnrich;
 
 /**
  * Create a reference to a database column.

@@ -8,7 +8,7 @@ You can use this function as `QE:c` and `c`.
 ## Example Usage
 
 ```php
-use function sbamtr\LaravelQueryEnrich\c;
+use function digivue\LaravelQueryEnrich\c;
 
 $author = Author::select(
     c('first_name')->as('name'),
@@ -19,7 +19,7 @@ $author = Author::select(
 Or you can do this:
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrich\QE;
 
 $author = Author::select(
     QE::c('first_name')->as('name'),

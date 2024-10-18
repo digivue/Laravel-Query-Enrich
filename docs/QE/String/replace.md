@@ -7,7 +7,7 @@ substring with a new string in a given string. It takes three parameters: `$stri
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrich\QE;
 
 $queryResult = DB::selectOne(
     'select ' . QE::repeat($string, $substring, $newString)->as('replace')

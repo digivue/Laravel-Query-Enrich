@@ -22,7 +22,7 @@ abstract class BaseTest extends TestCase
 
     protected function getPackageProviders($app)
     {
-        return ['sbamtr\\LaravelQueryEnrich\\QueryEnrichServiceProvider'];
+        return ['digivue\\LaravelQueryEnrich\\QueryEnrichServiceProvider'];
     }
 
     protected function defineEnvironment($app)

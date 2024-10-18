@@ -6,7 +6,7 @@ a given string. It takes a single parameter, `$parameter`, representing the stri
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrich\QE;
 
 $queryResult = DB::selectOne(
     'select ' . QE::reverse($string)->as('result')

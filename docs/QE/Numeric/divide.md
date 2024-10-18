@@ -7,7 +7,7 @@ following numeric parameters.
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrich\QE;
 
 $books = Book::select(
     'id',
